@@ -2,18 +2,11 @@
 # https://www.tensorflow.org/tutorials/images/classification
 
 import matplotlib.pyplot as plt
-import numpy as np
-import os
-import PIL
 import tensorflow as tf
-
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 import pathlib
-
-import tensorflow as tf
-import tensorflow_hub as hub
 
 physical_devices = tf.config.list_physical_devices('GPU')
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
